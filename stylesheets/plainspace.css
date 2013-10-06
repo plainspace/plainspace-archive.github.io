@@ -1,0 +1,162 @@
+@font-face {
+  font-family:Bello;
+  src:url(BelloPro.otf);
+}
+
+#content {
+  margin:0 auto;
+  margin-top:50px;
+  width:880px;
+  text-align:justify;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+  padding-right:5px;
+  padding-left:5px;
+  background-color:#ff0;
+  color:#0780C0;
+  text-decoration:none;
+}
+
+a:hover {
+  /* color:#113a54 */
+  color:#FF0894;
+}
+
+#plainspace {
+  margin-top:-50px;
+  color:#333;
+  text-align:center;
+  font-size:200px;
+  font-family:Bello,sans-serif;
+}
+
+#by {
+  margin-top:-40px;
+  margin-bottom:30px;
+  padding-right:35px;
+  color:#000;
+  text-align:right;
+  text-transform: uppercase;
+  font-weight:200;
+  font-size:20px;
+}
+
+#build {
+  margin-bottom:30px;
+  color:#ff0894;
+  text-align:center;
+  font-size:60px;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#currently {
+  margin-bottom:30px;
+  color:#444;
+  text-transform:uppercase;
+  font-weight:200;
+  font-size:38px;
+  line-height:60px;
+}
+
+@media not screen and (1) {
+#currently {
+  font-size:39px;
+}/* OP 11 */
+
+}
+
+#work {
+  margin-bottom:30px;
+  color:#444;
+  text-transform:uppercase;
+  font-weight:200;
+  font-size:30px;
+  line-height:60px;
+}
+
+.high {
+  padding-right:5px;
+  padding-left:5px;
+  background-color:#ff0894;
+  color:#fff;
+}
+
+.bold {
+  font-weight:700;
+}
+
+.process {
+  color:#0780C0;
+  font-style:italic;
+}
+
+.block {
+  float:left;
+  margin:14px 36px 0 0;
+}
+
+.block.last {
+  margin-right:0;
+}
+
+#process,#notable {
+  margin-bottom:30px;
+  color:#444;
+  font-weight:200;
+  font-size:30px;
+  line-height:60px;
+}
+
+#oh {
+  margin-bottom:30px;
+  color:#444;
+  font-weight:200;
+  font-size:30px;
+  line-height:60px;
+}
+
+.hide {
+  display: none;
+}
+
+.more {
+  cursor: pointer;
+}
+
+/* @-moz-document url-prefix() {
+
+  #by {
+    font-size: 20px; */
+
+/* }
+
+  #plainspace {
+    font-size: 200px; */
+
+/* }
+
+  #build {
+    font-size: 60px; */
+
+/* }
+
+  #currently {
+    font-size: 40px; */
+
+/* }
+
+  #notable {
+    font-size: 30px; */
+
+/* }
+
+  #oh {
+    font-size: 30px; */
+
+@media not screen and (1) {
+#plainspace {
+  margin-top:50px;
+}/* OP 11 */
+}
